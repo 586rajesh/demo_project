@@ -1,3 +1,8 @@
+/*
+
+Trigger avoiding duplicate entries updated and inserted into contact(s) email.
+
+*/
 trigger DuplicateContactValidation on Contact (before insert,before update) {
     List<String> newEmailList = new List<String>();
     for(Contact c:trigger.new){
