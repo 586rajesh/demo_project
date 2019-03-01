@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-02-13T18:32:26+05:30" hostname="https://raj586-dev-ed.my.salesforce.com" tests="2" failures="0"  errors="0"  time="0.44">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="2"/>
+            <property name="passing" value="2"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Feb 13, 2019 6:32 PM"/>
+            <property name="testExecutionTime" value="0.44 s"/>
+            <property name="testTotalTime" value="0.44 s"/>
+            <property name="commandTime" value="7.48 s"/>
+            <property name="hostname" value="https://raj586-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D7F000001aVa7UAE"/>
+            <property name="username" value="raj@dxc.com"/>
+            <property name="testRunId" value="7077F00005NEJdl"/>
+            <property name="userId" value="0057F000000aLepQAE"/>
+        </properties>
+        <testcase name="addNewAccount" classname="AccountNewTest" time="0.39">
+        </testcase>
+        <testcase name="addNewAccountWitoutAcctName" classname="AccountNewTest" time="0.04">
+        </testcase>
+    </testsuite>
+</testsuites>

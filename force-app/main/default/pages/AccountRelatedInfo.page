@@ -1,0 +1,33 @@
+<apex:page Controller="AccountInfo" tabStyle="Account" lightningStylesheets="true" docType="html-5.0">  
+	<apex:includeLightning />    
+	<apex:slds />
+	<apex:form >
+		<apex:pageMessages />
+		<apex:panelGrid >
+			<apex:pageBlock >
+				<apex:pageBlockSection columns="2">
+            	<apex:inputText value="{!searchBoxstring}" label="Search"/>
+				<apex:commandButton value="Search" action="{!searchbox}" > </apex:commandButton>
+				</apex:pageBlockSection>
+				<apex:pageBlockSection >
+            	<apex:pageblockTable value="{!result}" var="wl">
+               		<apex:column value="{!wl.name}"/>              
+               		<apex:column value="{!wl.id}"/>
+				</apex:pageblockTable>
+				</apex:pageBlockSection>
+				<apex:pageBlockSection title="Account Related Contacts" rendered="{!cflag}"  columns="1" collapsible="false">
+				<apex:pageblockTable value="{!contactresult}" var="cl">
+               		<apex:column value="{!cl.FirstName}"/>              
+               		<apex:column value="{!cl.id}"/>
+            	</apex:pageblockTable>
+				 </apex:pageBlockSection>
+				 <apex:pageBlockSection title="Account Related Opportunities" rendered="{!oflag}" columns="1" collapsible="false">
+					<apex:pageblockTable value="{!opportunityresult}" var="ol">
+						   <apex:column value="{!ol.name}"/>              
+						   <apex:column value="{!ol.id}"/>
+					</apex:pageblockTable>	
+				 </apex:pageBlockSection>
+			</apex:pageBlock>	 
+		</apex:panelGrid>
+	</apex:form>
+</apex:page>

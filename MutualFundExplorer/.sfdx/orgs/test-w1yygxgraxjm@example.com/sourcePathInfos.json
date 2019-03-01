@@ -1,0 +1,142 @@
+[
+    [
+        "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549975455102,
+            "changeTime": 1549975455102,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549975455104,
+            "changeTime": 1549975455104,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549976470315,
+            "changeTime": 1549976470315,
+            "contentHash": "6e0b11163df34c8b19b263c464f5609a1926e9f5"
+        }
+    ],
+    [
+        "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\aura",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549975455105,
+            "changeTime": 1549975455105,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\lwc",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\lwc",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549975455107,
+            "changeTime": 1549975455107,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer",
+        {
+            "state": "n",
+            "sourcePath": "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549975485101,
+            "changeTime": 1549975485101,
+            "contentHash": "3d48858a737ab8c39315eaf1c5149980d1a9cdae",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\settings\\OrgPreference.settings-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\settings\\OrgPreference.settings-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 6383,
+            "modifiedTime": 1549976470300,
+            "changeTime": 1549976470300,
+            "contentHash": "53153da293978b02d191b6ae64f72eae1e200c56"
+        }
+    ],
+    [
+        "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\permissionsets\\DreamInvest.permissionset-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\permissionsets\\DreamInvest.permissionset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 348,
+            "modifiedTime": 1549976470320,
+            "changeTime": 1549976470320,
+            "contentHash": "72337cd82ad265b161bbdb22c871eb97814e1b80"
+        }
+    ],
+    [
+        "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\settings",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\settings",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549976470299,
+            "changeTime": 1549976470299,
+            "contentHash": "51a767161ecb76df77be39042e42cbb2d91005fb"
+        }
+    ],
+    [
+        "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\permissionsets",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\rthota7\\Desktop\\demoproject\\demo_project\\MutualFundExplorer\\force-app\\main\\default\\permissionsets",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1549976470318,
+            "changeTime": 1549976470318,
+            "contentHash": "60680eef6555307b3497314153664b6229838daf"
+        }
+    ]
+]

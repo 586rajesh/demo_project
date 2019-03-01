@@ -1,0 +1,47 @@
+<apex:page controller="DynamicSOQLGenerator" tabStyle="Account" lightningStylesheets="true">
+    <apex:includeLightning />
+    <apex:slds />
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageMessages />
+            <apex:panelGrid >
+                <apex:outputPanel layout="block" style="padding-left:30%;" >
+                    <apex:outputLabel value="Select Object Form Dropdown List : " />
+                    <apex:selectList value="{!strObjectName}" multiselect="false" size="1"  >
+                        <apex:selectOptions value="{!lstObjectNames}" />
+                        <apex:actionSupport action="{!getFiledNames}" event="onchange" reRender="fieldtable" />
+                    </apex:selectList>    
+                </apex:outputPanel><br/>
+                <apex:outputPanel id="fieldtable">
+                    <apex:outputPanel style="padding-left:45%;" rendered="{!bFlag}">
+                        <apex:selectList value="{!leftSelected}" multiselect="true" size="5" title="Select Fields which you want query">
+                            <apex:selectOptions value="{!lstFiledOptions}" />
+                        </apex:selectList><br/><br/>
+                        <apex:outputPanel style="padding-left:45%;">
+                            <apex:commandButton styleClass="slds-button slds-button_brand" action="{!buildTheQuery}" value="Get SOQL Query" reRender="fieldtable" /><br/><br/>
+                        </apex:outputPanel>
+                    </apex:outputPanel>
+                    <apex:outputPanel style="padding-left:30%;" >
+                        <apex:outputLabel value="SOQL Query: " rendered="{!IF(strQuery == null, false, true)}" id="query">
+                            <font style="color:blue;font-weight: bold;">
+                                <apex:inputTextarea rows="2" cols="100" value="{!strQuery}"/>
+                            </font><br/><br/>
+                            <apex:outputPanel style="padding-left:45%;">
+                                <apex:commandButton action="{!retriveTheResult}" value="Get Result" styleClass="slds-button slds-button_brand" />
+                            </apex:outputPanel>
+                        </apex:outputLabel>
+                    </apex:outputPanel>
+                </apex:outputPanel>  
+            </apex:panelGrid>
+        </apex:pageBlock>
+        <apex:pageBlock title="{!strObjectName}" rendered="{!bShowTable}" id="pgb">
+            <apex:pageBlockSection collapsible="false" columns="1">
+                <apex:pageBlockTable value="{!lstSobjects}" var="objRec">
+                    <apex:repeat value="{!leftSelected}" var="fieldLabel">
+                        <apex:column style="width:auto;" value="{!objRec[fieldLabel]}" />                 
+                    </apex:repeat>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

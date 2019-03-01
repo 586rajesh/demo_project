@@ -1,0 +1,70 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 2,
+        "passing": 2,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Feb 13, 2019 6:32 PM",
+        "testExecutionTime": "438 ms",
+        "testTotalTime": "438 ms",
+        "commandTime": "7478 ms",
+        "hostname": "https://raj586-dev-ed.my.salesforce.com",
+        "orgId": "00D7F000001aVa7UAE",
+        "username": "raj@dxc.com",
+        "testRunId": "7077F00005NEJdl",
+        "userId": "0057F000000aLepQAE"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M7F000007WVBHUA4"
+            },
+            "Id": "07M7F000007WVBHUA4",
+            "QueueItemId": "7097F000000isYGQAY",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7077F00005NEJdlQAH",
+            "MethodName": "addNewAccount",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p7F00000VbvydQAB"
+                },
+                "Id": "01p7F00000VbvydQAB",
+                "Name": "AccountNewTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 394,
+            "FullName": "AccountNewTest.addNewAccount"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M7F000007WVBIUA4"
+            },
+            "Id": "07M7F000007WVBIUA4",
+            "QueueItemId": "7097F000000isYGQAY",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7077F00005NEJdlQAH",
+            "MethodName": "addNewAccountWitoutAcctName",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p7F00000VbvydQAB"
+                },
+                "Id": "01p7F00000VbvydQAB",
+                "Name": "AccountNewTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 44,
+            "FullName": "AccountNewTest.addNewAccountWitoutAcctName"
+        }
+    ]
+}
