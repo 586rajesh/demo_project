@@ -1,5 +1,5 @@
 /*
-Avoiding Duplicate File's in lightening on Name basis 
+Avoiding Duplicate File in lightening on Name basis 
 */
 trigger ContentDocumentValidation on ContentDocument (before insert,before update) {
     List<String> newTitles = new List<String>();
